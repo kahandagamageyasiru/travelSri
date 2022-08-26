@@ -1,0 +1,213 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #ddd;
+  
+}
+
+
+table {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+    
+  }
+  
+  table td, table th {
+    border: 1px solid black;
+    padding: 8px;
+   
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #3BACB6;
+    color: white;
+   
+  }
+
+  .wlidlheader h1{
+    position: absolute;
+      top: 20%;
+      left: 13%;
+      font-size: 300px;
+      opacity: 80%;
+      color: white;
+      
+  }
+
+  .wlidlheader h1:hover{
+    color: wheat;
+  }
+
+  .wildlife3 img{
+    width: 25%;
+}
+  .wildlife1 img{
+  width: 25%;
+}
+  .wildlife2 img{
+  width: 25%;
+}
+
+.wildlife1{
+    display: flex;
+    flex-direction: row;
+  
+    background-color: #AEFEFF;
+    gap: 10px;
+    
+  }
+
+  .wildlife2{
+    display: flex;
+    flex-direction: row;
+    background-color: #EEEEEE;
+    gap: 10px;
+    
+  }
+  .wildlife3{
+    display: flex;
+    flex-direction: row;
+    background-color: #EEEDDE;
+    gap: 10px;
+    
+  }
+
+  a{
+    text-decoration: none;
+    font-weight: bold;
+  
+  }
+  .wildlifeimg{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .wildlifeimg img{
+    width: 25%;
+  }
+
+  .map{
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .map img{
+    width: 35%;
+    flex: 33.3%;
+   
+  }
+  .map div{
+    flex: 33.3%;
+    display: flex;
+    flex-direction: column;
+    background-color:  #F6C6EA;
+    align-items: center;
+    justify-content: center;
+    color: #590696;
+    
+  }
+  
+  h3{
+    
+     margin-left: 5px;
+     margin-right: 5px;
+     font-size: 60px;
+  }
+
+  .map div p{
+    margin-left: 5px;
+     margin-right: 5px;
+  }
+
+  
+
+  @media only screen and (max-width: 600px) {
+    body{
+      padding: 0;
+      margin: 0;
+    }
+    .wlidlheader{
+     display: flex;
+     flex-direction: column;
+    }
+ 
+    .wlidlheader h1{
+ 
+      font-size: 25px;
+      position: relative;
+      float: left;
+      top:2px;
+      margin: 0;
+      color: #590696;
+     
+    }
+    .wildlife1{
+     display: flex;
+     flex-direction: column;
+     
+    }
+    .map{
+     display: flex;
+     flex-direction: column;
+     
+    }
+ 
+    table{
+     
+     border-collapse: collapse;
+     width: 50%;
+    }
+
+    .wildlife2{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .wildlife3{
+      display: flex;
+      flex-direction: column;
+    }
+    .wildlifeimg{
+      display: flex;
+      flex-direction: column;
+    }
+    .wildlifeimg img{
+      width: 100%;
+    }
+    img{
+      width: 100%;
+    }
+    .wildlife2 img{
+      width: 100%;
+    }
+
+    .wildlife3 img{
+      width: 100%;
+    }
+    .map img{
+      width: 100%;
+    }
+    iframe{
+      width: 100%;
+    }
+
+    .wildlife1 img{
+      width: 100%;
+    }
+  }
+
+  footer h3{
+    font-size: large;
+  }
+  footer a{
+    font-weight:400;
+  }

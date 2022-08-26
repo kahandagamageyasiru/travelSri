@@ -1,0 +1,254 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #A0D995;
+
+  
+}
+
+input{
+    border-radius: 20px;
+    border: black 2px solid;
+    width: 80%;
+    padding: 5px;
+}
+
+button{
+    padding: 10px;
+    background-color: #F6E3C5;
+   
+}
+.don_part{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    background-color: #F6E3C5;
+    margin: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.pay{
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+}
+
+section img{
+    width: 100%;
+  
+}
+
+ h1{
+    text-align: center;
+
+}
+
+.don_part1 img{
+
+    width: 15%;
+}
+
+.don_part1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    gap: 40px;
+    text-align: center;
+    
+}
+
+.donate{
+    background-color: #F6E3C5;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.don_part1 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+      
+}
+
+h2{
+    font-weight:100;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: #F6E3C5;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    font-weight: bolder;
+    color: brown;
+}
+
+.merch_0{
+
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin: 100px;
+   background-color: #F6E3C5;
+   gap: 5px;
+
+}
+
+.merch{
+    background-color: #F6E3C5;
+    border-radius: 10px;
+    margin: 30px;
+    padding-bottom: 10px;
+    padding-top:5px ;
+}
+
+.merch1{
+    flex: 33.3%;
+    background-color: #A0D995;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.merch2{
+    flex: 33.3%;
+    background-color: #A0D995;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.merch3{
+    flex: 33.3%;
+    padding: 30px;
+    background-color: #A0D995;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.merch1 img{
+width: 70%;
+
+
+
+}
+
+.merch2 img{
+    width: 70%;   
+   
+}
+
+.merch3 img{
+    width: 65%;  
+    
+}
+
+.merch_b{
+    border: 2px solid #333;
+    border-radius: 0;
+}
+
+.merch_b:hover{
+    background-color: #635666;
+    color: aliceblue;
+    border: aliceblue 2px solid;
+}
+
+.merch p{
+    text-align: center;
+}
+
+ @media only screen and (max-width: 600px) {
+   .don_part1{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .don_part{
+
+    margin: 50px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .merch{
+    display: flex;
+    flex-direction: column;
+    float: left;
+   }
+   .merch_0{
+    display: flex;
+    flex-direction: column;
+    float: left;
+   }
+
+   .pay input{
+    width: 50px;
+   }
+ } 
+
+ 
+  .footer_con{
+    background-color: #4CACBC;
+    
+  }
+  .footer_cont1{
+    background-color: #4CACBC;
+    
+  }
+
+  .footer_cont2{
+    background-color: #4CACBC;
+    
+  }
+
+  .footer_cont3{
+    background-color: #4CACBC;
+    
+  }

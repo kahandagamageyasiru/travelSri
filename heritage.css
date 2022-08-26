@@ -1,0 +1,34 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.def_heritage{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.def_heritage div{
+    flex: 33.33%;
+}
+
+section img{
+    width: 100%;
+}
+
+.heri_def{
+    text-align: center;
+}
+
+#btn01{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+

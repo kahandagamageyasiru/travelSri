@@ -1,0 +1,83 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.t1{
+    display: flex;
+    flex-direction:row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: large;
+    
+    
+}
+
+.t2{
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+
+.t3{
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    gap: 10px;
+}
+
+#addtofav,#reserve, #clearres,#addtoreserve,#clearformdata{
+    margin-left: 43%;
+    margin-right: 43%;
+    border-radius: 10px;
+}
+
+#rescost,#final{
+    text-align: center;
+}
+
+.t5{
+    display: flex;
+    flex-direction:row;
+    gap: 80px;
+    justify-content: center;
+    flex: 33.3%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset{
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 20px;
+
+}
+
+input{
+
+    padding: 3px;
+    border-radius: 10px;
+    
+}
+
+#addtofav:hover,#reserve:hover, #clearres:hover,#addtoreserve:hover,#clearformdata:hover{
+    color: aliceblue;
+    background-color: #333;
+    border: aliceblue solid;
+}
+
+

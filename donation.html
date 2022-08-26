@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase & Donate</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="donation.css">
+    <link rel="stylesheet" href="donation1.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+
+            <a href="index.html"><img class="logo" src="images\logo\Untitled-1 [Recovered]-01.png" alt=""></a>
+             <nav>
+                 <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="heritage.html">Heritage</a></li>
+                    <li><a href="wildlife.html">Wildlife</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="beaches.html">Beaches</a></li>
+                    <li><a href="donation.html">Purchase & Donate</a></li>
+                 </ul>
+             </nav>
+        </div>  
+    </header>
+    <section>
+        <div>
+            <h1>Childrens wellbeing</h1>
+            <img src="images\purchase and donate\tban_22.jpg" alt="">
+        </div>
+        <div>
+             <p> We support children primarily through child sponsorship. By 2022, our efforts will have helped 6,400 sponsored children and 4,000 supported children gain access to education, establish their lives, and find work.
+                Our nonprofit operates 8 centers and 80 boarding houses and supports roughly 96 development initiatives (such as schools or student housing) each year.
+                One of our basic goals is to keep administrative expenditures to a minimum so that your gifts have the greatest possible impact. This is demonstrated by our excellent philanthropic expenditure rate of 82%.
+                When you sponsor a child in srilanka, you and your sponsored child form a bond through the exchange of letters.You're simply giving someone in Sri lanka a life-changing gift.</p>
+        </div>
+   
+    </section>
+
+    <div class="donate">
+        <h1> achievements</h1>
+     <div class="don_part1"> 
+        
+        <div><img src="images\father-with-children-raising-arms.png" alt="">
+        <h1>10000+</h1>
+        <h2>Helped childern in Sri lanka and globally</h2></div>
+        <div><img src="images\world.png" alt="">
+            <h1>25</h1>
+            <h2>Countries worldwide we've made an impact in</h2></div>
+        <div><img src="images\10.png" alt="">
+            <h1>10</h1> 
+            <h2>we are on this mission since 2012</h2></div>    
+     </div>
+    </div>
+
+    <section>
+        <div>
+            <h1>conservation of wildlife</h1>
+            <img src="images\purchase and donate\sri-lanka-mountains-riverstan-landscape-nature-asia.jpg" alt="">
+        </div>
+        <div>
+             <p> Through research and conservation initiatives, to support the conservation of wildlife, its natural habitat across the geographic range of each species, and its peaceful coexistence with man.Explore Sri Lanka's untamed places while also contributing to conservation and research. Sri Lanka has various unexplored locations that are unknown to the rest of the world. If you'd like to join us on an adventure while also contributing to our conservation efforts, please contact us.</p>
+        </div>
+   
+    </section>
+
+    <div class="form-signup" id="singup">
+
+        
+        <form method="get" onsubmit="return donationS()">
+            <h1>Donation Form</h1>
+        <div class="don_1">
+            <div><label for="firstname">First Name: <input type="text" class="fname" name="firstname" placeholder="Enter First Name"></label><br></div>
+            <div><label for="lastname">Last Name: <input type="text" class="lname" name="lastname" placeholder="Enter Last Name"></label><br></div>
+            <div><label for="email">Email: <input type="email" class="email" name="email" placeholder="Enter Email Address"></label><br></div>
+          
+        </div>
+          
+        <section class="don_0">
+            <h3>Select Donation values</h3>
+            <div class="don_3">
+              
+              <input type="checkbox" name="don_val" value="100">100LKR<br>
+              <input type="checkbox" name="don_val" value="250">250LKR<br>
+              <input type="checkbox" name="don_val" value="500">500LKR<br>
+              <input type="checkbox" name="don_val" value="1000">1000LKR<br>
+              <input type="checkbox" name="don_val" value="2500">2500LKR<br>
+              <input type="checkbox" name="don_val" value="5000">5000LKR<br>
+              <input type="checkbox" name="don_val" value="10000">10000LKR<br>
+              
+            </div>
+  
+        </section>
+        
+          <div class="don_12">
+            
+            <input class="D_button" type="button" onclick="myDamount()" value="donation amount">
+            <input  type="text" id="order" size="50">
+            
+          </div>
+       <section class="don_00">
+        <div class="don_1">
+            <label for="cardHolder">cardHolder</label>
+            <input type="text" class="hName" name="firstname" placeholder="Enter First Name">
+            <br>
+            <label for="cardNumber">cardNumber:</label>
+            <input type="text" class="d_cardNum" maxlength="16" class="card-number-input"><br>
+          </div>
+          
+         <div class="don_1">
+            <label for="date">Date:</label>
+          <input type="date" class="date"><br>
+          <label for="cvv">cvv</label>
+          <input type="text" class="cvv" maxlength="3"><br>
+         </div>
+       </section>
+   
+         <div class="don1">
+            <label for="query">Comment: </label><br>
+            <textarea name="query" class="query" rows="5" cols="15"></textarea><br>
+         </div>
+
+         
+         <p class="emsgb"></p>
+         <div class="don_3">
+            <input class="donBtn" type="submit" name="submit" value="Submit">
+            <input class="donBtn" type="reset" name="reset" value="Reset">
+         </div>
+          
+          
+          
+          
+        </form>
+      </div>
+      <script src="donation.js"></script>
+
+
+   <div class="merch">
+    <h1>merch</h1>
+    <p class="merch_P">We use merch for a variety of purposes, including donor retention, fundraising, boosting awareness, and engaging with you at events. <br> Our common merchandise goal is to increase the quantity of fundraising donations by a specific proportion.</p>
+    <div class="merch_0">
+        <div class="merch1"><img src="images\purchase and donate\GINI-RAKSHA-01.jpg" alt="">
+            <h2>ambalangoda mask</h2>
+            <a href=""><button class="merch_b">Purchase</button></a>
+        </div>
+        
+        <div class="merch2"><img src="images\purchase and donate\A13usaonutL._CLa_2140,2000_71jJ5+dO+nL.png_0,0,2140,2000+0.0,0.0,2140.0,2000.0_AC_UX342_.jfif" alt="">
+            <h2>t-shirts</h2>
+            <a href="https://www.redbubble.com/i/t-shirt/Sri-Lanka-by-leoxgfx/45903306.XK1BC"><button class="merch_b">Purchase</button></a>
+        </div>
+        
+        <div class="merch3"><img src="images\purchase and donate\ElephantwithsmallbabyHandEbonywood_13_1144.jpeg" alt="">
+            <h2>wood carvings</h2>
+            <a href=""><button class="merch_b">Purchase</button></a>
+        </div>
+        
+    </div>
+  </div>
+    
+    <footer>
+        <section class="footer_con">
+            <section class="footer_cont1">
+              <h3>  follow us on </h3>
+              <div class="footer_cont">
+                <img src="images\logo\instagram-brands.svg" alt="">
+                <img src="images\logo\youtube-brands.svg" alt="">
+                <img src="images\logo\facebook-brands.svg" alt="">
+              </div>
+              <br>
+             
+            </section>
+            <section class="footer_cont2">
+              <img src="images\logo\Untitled-1 [Recovered]-01.png" alt="">
+              <p>Hotline 1912 </p>
+              <p>Ambulance Service 1990</p>
+              <p>local authorities 119</p>
+            </section>
+            <section class="footer_cont3">
+              <h3>quick links</h3>
+              <a href="#">Contact Us</a>
+              <a href="#">News</a>
+              <a href="#">complaint</a>
+            </section>
+            
+           </section>
+           &copy; all rights reserved
+           <br>
+           <!-- childrenofthemekong.org, 2022. [online] Available at: <https://www.childrenofthemekong.org/?gclid=Cj0KCQjwwJuVBhCAARIsAOPwGASTZD2fDLJwjuGi98JVkpVXOc2KESrMNhr-a7d0Kfd1jJJXQYfVBeMaAkNuEALw_wcB> [Accessed 12 June 2022]. -->
+           <!-- 2022. [online] Available at: <https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C71jJ5%2BdO%2BnL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UX342_.png> [Accessed 17 June 2022]. -->
+           <!-- amazon.com/, 2022. [online] Available at: <https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.lw.lk/wp-content/uploads/2020/08/GINI-RAKSHA-01.jpg> [Accessed 17 June 2022]. -->
+           <!-- fellowship.ca, 2022. [online] Available at: <https://www.fellowship.ca/graphics/sb_febv4/tban_22.jpg> [Accessed 17 June 2022]. -->
+           <!-- wallpaperflare.com, 2022. [online] Available at: <https://c1.wallpaperflare.com/preview/347/437/244/sri-lanka-mountains-riverstan-landscape-nature-asia.jpg> [Accessed 17 June 2022]. -->
+           <!-- 2022. [online] Available at: <https://c1.wallpaperflare.com/preview/347/437/244/sri-lanka-mountains-riverstan-landscape-nature-asia.jpg> [Accessed 17 June 2022]. -->
+           Yasiru Udana Kahanda Gamage CB 010324
+    </footer>
+</body>
+</html>

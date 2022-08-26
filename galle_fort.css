@@ -1,0 +1,68 @@
+body{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    text-align: center;
+    background-color: #FFEE63;
+    border-bottom: #333 solid 5px;
+    border-top: #333 solid 5px;
+    animation-name: fort;
+    animation-duration: 6s;
+
+}
+@keyframes fort {
+    from {background-color:#FFEE63;}
+    to {background-color:black;}
+    from {color:black;}
+    to {color:#FFEE63;}
+
+  }
+
+
+
+.galle_fort img{
+    width: 40%;
+}
+
+
+.galle_fort_main img{
+    width: 50%;
+    border-radius: 20px;
+    position: relative;
+    left: 25%;
+}
+
+.galle_fort{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+ 
+}
+
+p{
+    flex: 50%;
+    background-color: #FFEE63;
+    padding: 30px;
+    border-radius: 20px;
+    border: 5px #333 solid;
+}
+
+.galle_fort ul{
+    flex: 50%;
+    padding: 30px;
+    background-color: #FFEE63;
+    border-radius: 20px;
+    border: 5px #333 solid;
+}
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    background-color: #4CACBC;
+    border: 0;
+}
